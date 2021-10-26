@@ -14,8 +14,8 @@ client.on('ready', () => {
 
 client.on("guildMemberAdd", async (member) => { 
 
-    let guild = await client.guilds.cache.get("902652580516208640");
-    let channel = await client.channels.cache.get("902652580516208644");
+    let guild = await client.guilds.cache.get("865967499166482443");
+    let channel = await client.channels.cache.get("898291350875799582");
 
     if (guild != member.guild) {
       return console.log("Test.");
